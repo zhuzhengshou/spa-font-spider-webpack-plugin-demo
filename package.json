@@ -1,0 +1,26 @@
+{
+  "name": "spa-font-spider-webpack-plugin-demo",
+  "version": "1.0.0",
+  "description": "spa-font-spider-webpack-plugin的一个demo案例",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \" node server \" \" webpack server\"",
+    "build": "concurrently \" node server \" \" webpack build\""
+  },
+  "author": "zhuzhengshou",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "css-loader": "^6.5.1",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.5.0",
+    "spa-font-spider-webpack-plugin": "^1.0.3",
+    "style-loader": "^3.3.1",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}
